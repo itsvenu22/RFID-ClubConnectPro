@@ -1,6 +1,6 @@
-# RFID-ClubConnect 🚀
+# RFID-ClubConnectPro 🚀
 
-RFID-ClubConnect is an exciting and versatile solution designed to supercharge attendance tracking for clubs and organizations. This system harnesses the power of RFID (Radio-Frequency Identification) technology to elegantly record attendance, empowering clubs to concentrate on their core activities while effortlessly managing attendance records. Additionally, the system goes the extra mile by tapping into email and SMS services to foster seamless communication with participants, making it a comprehensive attendance management powerhouse!
+RFID-ClubConnectPro is an exciting and versatile solution designed to supercharge attendance tracking for clubs and organizations. This system harnesses the power of RFID (Radio-Frequency Identification) technology to elegantly record attendance, empowering clubs to concentrate on their core activities while effortlessly managing attendance records. Additionally, the system goes the extra mile by tapping into email and SMS services to foster seamless communication with participants, making it a comprehensive attendance management powerhouse!
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
