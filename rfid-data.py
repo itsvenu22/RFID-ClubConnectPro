@@ -18,6 +18,7 @@ MAX_RETRIES = 3
 retry_count = 0
 
 ##########################################################_CONST_for_MAIL_##########################################################
+
 sender_email = "<your mail>"
 sender_password = "<passwd from 3rd party g.app>"
 
@@ -27,6 +28,7 @@ subject = "<text>"
 message = "<text>"
 
 ##########################################################_CONST_for_SMS_###########################################################
+
 account_sid = '<your sid>'
 auth_token = '<your token>'
 
