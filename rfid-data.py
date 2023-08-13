@@ -6,6 +6,8 @@ from twilio.rest import Client
 from mfrc522 import SimpleMFRC522
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from sendms import send_email, send_sms
+
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
@@ -15,7 +17,7 @@ reader = SimpleMFRC522()
 MAX_RETRIES = 3
 retry_count = 0
 
-#CONST for email
+##########################################################_CONST_for_MAIL_##########################################################
 sender_email = "<your mail>"
 sender_password = "<passwd from 3rd party g.app>"
 
@@ -24,7 +26,7 @@ receiver_email = "<receiver mail>"
 subject = "<text>"
 message = "<text>"
 
-#CONST for mess
+##########################################################_CONST_for_SMS_###########################################################
 account_sid = '<your sid>'
 auth_token = '<your token>'
 
@@ -52,7 +54,7 @@ try:
             os.system(f"figlet -c -w 160 -f ANSI\ Shadow HACKER ID: {a} | lolcat")
             os.system(f"figlet -c -w 160 -f ANSI\ Shadow HACKER NAME: {text} | lolcat")
             send_email(sender_email, sender_password, receiver_email, subject, message)
-            send_lug_message(body,send_num,receive_num)
+            send_sms(body,send_num,receive_num)
             time.sleep(10)
             os.system(f"clear")
             break
