@@ -17,7 +17,7 @@ reader = SimpleMFRC522()
 MAX_RETRIES = 3
 retry_count = 0
 
-#CONST for email
+##########################################################_CONST_for_MAIL_##########################################################
 sender_email = "<your mail>"
 sender_password = "<passwd from 3rd party g.app>"
 
@@ -26,7 +26,7 @@ receiver_email = "<receiver mail>"
 subject = "<text>"
 message = "<text>"
 
-#CONST for mess
+##########################################################_CONST_for_SMS_###########################################################
 account_sid = '<your sid>'
 auth_token = '<your token>'
 
