@@ -6,6 +6,8 @@ from twilio.rest import Client
 from mfrc522 import SimpleMFRC522
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from sendms import send_email, send_sms
+
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
@@ -52,7 +54,7 @@ try:
             os.system(f"figlet -c -w 160 -f ANSI\ Shadow HACKER ID: {a} | lolcat")
             os.system(f"figlet -c -w 160 -f ANSI\ Shadow HACKER NAME: {text} | lolcat")
             send_email(sender_email, sender_password, receiver_email, subject, message)
-            send_lug_message(body,send_num,receive_num)
+            send_sms(body,send_num,receive_num)
             time.sleep(10)
             os.system(f"clear")
             break
