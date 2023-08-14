@@ -64,28 +64,22 @@ To embark on your RFID-ClubConnect journey, follow these simple steps:
 
 ```bash
 # Update the system
-sudo apt update
-sudo apt upgrade
+sudo apt update && sudo apt upgrade
 
 # Install Python
 sudo apt install python3
 
 # Install Pip (Python Package Manager)
 sudo apt install python3-pip
-
-# Install Required Libraries
-pip3 install RPi.GPIO twilio mfrc522
-
-# Hardware Setup
-# If the code interfaces with hardware, ensure proper connections
-
-# Custom Modules
-# If the code relies on custom modules, ensure they're available and configured
-
-# Run the Script with all pins connected
-# Clone the repo with
-git clone https://github.com/itsvenu22/RFID-ClubConnectPro
-
+```
+```bash
+mkdir myrfid && cd myrfid
+python -m venv venv
+source venv/bin/activate && cd venv
+git clone https://github.com/itsvenu22/RFID-Club-Attendance && cd RFID-Club-Attendance
+pip install -r requirements.txt
+```
+```bash
 # Use a text editor or the terminal to create the file
 nano rfid-data.py
 
