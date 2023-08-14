@@ -84,7 +84,7 @@ pip3 install RPi.GPIO twilio mfrc522
 
 # Run the Script with all pins connected
 # Clone the repo with
-git clone https://github.com/itsvenu22/RFID-Club-Attendance
+git clone https://github.com/itsvenu22/RFID-ClubConnectPro
 
 # Use a text editor or the terminal to create the file
 nano rfid-data.py
