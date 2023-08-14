@@ -28,6 +28,35 @@ To recreate this project you need the following hardware components:
 - Jumper wires
 
 To embark on your RFID-ClubConnect journey, follow these simple steps:
+<details>
+  <summary><strong>Configure Raspberry Pi for RFID</strong></summary>
+  
+---
+    
+  **Important:** Check SPI interface:
+  
+  1. Run `sudo raspi-config`.
+  2. Choose `Interfacing Options` > `SPI` (P4).
+  3. Confirm enabling SPI.
+  4. Wait for enabling.
+  5. Restart: `sudo reboot`.
+  
+  Check SPI: `lsmod | grep spi`.
+  - If `spi_bcm2835` is present, move on.
+  - If not, follow:
+  
+  Edit config: `sudo nano /boot/config.txt`.
+  - Remove "#" from `dtparam=spi=on` or add it.
+  - If absent, add `dtparam=spi=on`.
+  
+  Save (Ctrl + O), exit (Ctrl + X).
+  Reboot: `sudo reboot`.
+  
+  This ensures the SPI interface is properly enabled on your Raspberry Pi.
+
+---
+  
+</details>
 
 1. **Installation**: Clone this repository to your local machine. 🖥️
 <br>Here, I'm using
@@ -83,6 +112,7 @@ python3 rfid-data.py
 5. **RFID Integration**: Get that RFID hardware connected! Make sure the RFID reader is speaking the same language as your software. 📡
 
 6. **Usage**: Fire up the system and test it with a few sample RFID cards. Ensure attendance records are being captured with pinpoint accuracy and that those email/SMS notifications are rocking as expected! 💥
+   
 
 
 <h3 align="left">If you have any questions or want to connect with me, feel free to reach out:</h3>
