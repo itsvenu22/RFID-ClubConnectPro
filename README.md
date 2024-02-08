@@ -111,9 +111,10 @@ python3 rfid-data.py
 
 <h3 align="left">If you have any questions or want to connect with me, feel free to reach out:</h3>
 
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/venukanthan_bs)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/venukanthan)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/itsvenu22)
+[![Twitter](https://skillicons.dev/icons?i=twitter)](https://twitter.com/venukanthan_bs)
+[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/venukanthan)
+[![Instagram](https://skillicons.dev/icons?i=instagram)](https://instagram.com/itsvenu22)
+
 
   
 [![Thank You](https://img.shields.io/badge/Thank_You-For_Visiting_My_Repository!-brightgreen?style=for-the-badge&logo=heart)](https://github.com/itsvenu22)
@@ -122,5 +123,9 @@ python3 rfid-data.py
 This project proudly embraces the [MIT License](LICENSE). Feel free to use, modify, and spread the RFID-ClubConnect magic following the terms of the license.
 
 Let's revolutionize attendance tracking, one tap at a time!
+
+
+
+  Thank you for visiting our repository! We're thrilled to share our IoT journey and victory with you.
 
 
