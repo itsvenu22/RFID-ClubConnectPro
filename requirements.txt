@@ -11,7 +11,7 @@ mfrc522==0.0.7
 multidict==6.0.4
 PyJWT==2.8.0
 pytz==2023.3
-requests==2.31.0
+requests==2.32.2
 RPi.GPIO==0.7.1
 spidev==3.6
 twilio==8.5.0
